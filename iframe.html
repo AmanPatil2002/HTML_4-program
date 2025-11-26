@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe tag</title>
+</head>
+<body>
+    <!--
+        Basic iframe:
+        - src: URL or path of the document to embed (here a local file "div.html").
+        - width / height: size of the iframe in pixels (can use CSS instead).
+        - Use iframes sparingly; prefer embedding trusted content only.
+    -->
+    <iframe src="div.html" width="320" height="300"></iframe>
+
+    <!--
+        Embedded Google Map:
+        - src is a Google Maps embed URL.
+        - style="border:0;" removes the iframe border.
+        - allowfullscreen: allows the iframe to be displayed fullscreen.
+        - loading="lazy": defers loading until the iframe is near the viewport (improves performance).
+        - referrerpolicy controls the Referer header when fetching the iframe resource.
+    -->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26320.062545995315!2d73.84436040991656!3d18.520226288394554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1718013509282!5m2!1sen!2sin"
+        width="500"
+        height="400"
+        style="border:0;"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe><br>
+
+    <!--
+        Named browsing context and target linking:
+        - <a target="abc"> opens the link in an iframe (or window) whose name attribute matches "abc".
+        - If an iframe with name="abc" exists, the link loads inside that iframe.
+        - This technique can be used to load pages into a specific frame.
+    -->
+    <a href="https://www.sevenmentor.com/" target="abc">Seven Mentor</a>
+
+    <!--
+        Named iframe to receive links with target="abc":
+        - name attribute defines the browsing context name.
+        - src can be left empty to start blank.
+        - Be careful: some browsers block third-party content or restrict features in iframes.
+    -->
+    <iframe src="" name="abc"></iframe>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatting Tag</title>
+</head>
+<body>
+    
+<p>Lorem ipsum dolor sit, amet <strong>consectetur</strong> adipisicing.</p> <!-- <strong> = semantic: strongly important text (rendered bold) -->
+<p>Lorem ipsum dolor sit, amet <b>consectetur</b> adipisicing.</p>       <!-- <b> = presentational bold (no semantic emphasis) -->
+<p>Lorem ipsum dolor sit, amet <i>consectetur</i> adipisicing.</p>       <!-- <i> = presentational italic (often for terms, foreign words) -->
+<p>Lorem ipsum dolor sit, amet <em>consectetur</em> adipisicing.</p>     <!-- <em> = semantic emphasis (rendered italic) -->
+<p>Rs.999 <s>2999</s> adipisicing.</p>                                   <!-- <s> = contents are no longer accurate (strikethrough) -->
+<p>Rs.999 <del>2999</del> adipisicing.</p>                               <!-- <del> = deleted/removed text (semantic) -->
+<p>Lorem ipsum dolor sit, amet <u>consectetur</u> adipisicing.</p>       <!-- <u> = underlined text (use for styling or proper names) -->
+<p>Lorem ipsum dolor sit, amet <ins>consectetur</ins> adipisicing.</p>   <!-- <ins> = inserted/added text (semantic) -->
+<p>Lorem ipsum dolor sit, amet <big>consectetur</big> adipisicing.</p>   <!-- <big> = larger font (deprecated; use CSS) -->
+<p>Lorem ipsum dolor sit, amet <small>consectetur</small> adipisicing.</p> <!-- <small> = smaller font (use CSS instead) -->
+
+<p>H<sub>2</sub>O</p>                                                     <!-- <sub> = subscript (chemical formulas, etc.) -->
+<p>Na<sub>2</sub>So<sub>4</sub></p>                                       <!-- subscript example -->
+
+<p>10<sup>4</sup>O</p>                                                   <!-- <sup> = superscript (exponents, ordinal indicators) -->
+<p>If <var>x</var>=10 and <var>y</var>=20. verify the addition</p>       <!-- <var> = represents a variable name (semantic) -->
+<p>Lorem ipsum dolor, <q>sit amet consectetur</q> adipisicing.</p>        <!-- <q> = short inline quotation (browsers add quotes) -->
+<p>Please <mark>Switch off</mark> the light before leaving</p>           <!-- <mark> = highlight/mark text (highlighting) -->
+<p>Lorem ipsum dolor sit, amet <pre>consectetur</pre> adipisicing.</p>    <!-- <pre> = preformatted text (preserves whitespace & line breaks) -->
+
+<marquee direction="up">Election result is declared</marquee>            <!-- <marquee> = scrolling text (non-standard, deprecated; avoid) -->
+<marquee direction="right">Election result is declared</marquee>         <!-- use CSS animations instead for accessibility -->
+<marquee direction="left">Election result is declared</marquee>
+<marquee direction="down">Election result is declared</marquee>
+
+<p>Copy the data please press <kbd>ctrl</kbd>+<kbd>C</kbd></p>            <!-- <kbd> = user input / keyboard key (semantic) -->
+
+</body>
+</html>
