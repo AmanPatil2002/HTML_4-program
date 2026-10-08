@@ -1,50 +1,119 @@
 # HTML4 Program
 
-This project is a collection of simple HTML practice files that demonstrate the basic building blocks of web pages. Each file focuses on a specific HTML concept and helps beginners understand how different elements work.
+A collection of simple HTML practice files that demonstrate the basic building blocks of web pages. Each file focuses on one HTML concept, making this repository a handy reference for beginners learning how different elements work.
 
-## Project Overview
+## Table of Contents
+
+- [Project Structure](#project-structure)
+- [Files and Concepts](#files-and-concepts)
+- [Getting Started](#getting-started)
+- [Learning Goals](#learning-goals)
+- [Author](#author)
+
+## Project Structure
+
+```
+HTML_4-program/
+├── .vscode/              # Editor settings
+├── assets/               # Images and other resources used by the pages
+├── tasks/                # Practice assignments
+│   ├── task1.html
+│   └── task2.html
+├── anchor.html
+├── div.html
+├── form.html
+├── formating-tag.html
+├── heading.html
+├── html-entities.html
+├── icon.html
+├── iframe.html
+├── image.html
+├── list.html
+├── meta.html
+├── paragraph.html
+├── table.html
+├── Table2.html
+├── TimeTable.html
+└── README.md
+```
+
+## Files and Concepts
 
 ### Basic Structure and Text
-- `anchor.html` - Demonstrates hyperlink navigation, opening pages in a new tab, and downloading a file.
-- `heading.html` - Shows the use of heading tags from `h1` to `h6`.
-- `paragraph.html` - Explains how paragraph tags are used to display text content.
-- `formating-tag.html` - Covers formatting elements such as bold, italic, underline, strike-through, subscript, superscript, and marquee.
+
+| File | Description |
+| --- | --- |
+| `heading.html` | Heading tags from `<h1>` to `<h6>` |
+| `paragraph.html` | Paragraph tags for displaying text content |
+| `formating-tag.html` | Bold, italic, underline, strike-through, subscript, superscript, and marquee |
+| `anchor.html` | Hyperlinks, opening pages in a new tab, and downloading a file |
+| `list.html` | Lists in HTML |
 
 ### Layout and Styling
-- `div.html` - Demonstrates the use of `div` containers and basic inline styling.
-- `selector.html` - Introduces the concept of CSS selectors for targeting HTML elements.
+
+| File | Description |
+| --- | --- |
+| `div.html` | `<div>` containers and basic inline styling |
 
 ### Forms and Input Elements
-- `form.html` - Contains a sample admission form with text fields, email, password, file upload, radio buttons, checkboxes, dropdowns, textarea, and buttons.
+
+| File | Description |
+| --- | --- |
+| `form.html` | Sample admission form with text, email, password, file upload, radio buttons, checkboxes, dropdowns, textarea, and buttons |
 
 ### Media and Embedding
-- `image.html` - Shows how to insert images with attributes like `src`, `alt`, `width`, and `height`.
-- `icon.html` - Uses Font Awesome icons to add social media-style links.
-- `iframe.html` - Demonstrates embedding another page or a Google Map using the `iframe` tag.
+
+| File | Description |
+| --- | --- |
+| `image.html` | Inserting images with `src`, `alt`, `width`, and `height` |
+| `icon.html` | Font Awesome icons used for social media-style links |
+| `iframe.html` | Embedding another page or a Google Map with `<iframe>` |
 
 ### Special HTML Features
-- `html-entities.html` - Explains HTML entities for special characters and extra spacing.
-- `meta.html` - Shows how meta tags are used for page description, keywords, author, and refresh settings.
+
+| File | Description |
+| --- | --- |
+| `html-entities.html` | HTML entities for special characters and extra spacing |
+| `meta.html` | Meta tags for description, keywords, author, and refresh settings |
 
 ### Tables
-- `table.html` - Introduces basic tables with rows, columns, headers, and spacing.
-- `Table2.html` - Demonstrates more advanced table features like `rowspan`, `colspan`, and colored cells.
-- `TimeTable.html` - Creates a complete timetable layout using table formatting and merged cells.
+
+| File | Description |
+| --- | --- |
+| `table.html` | Basic tables with rows, columns, headers, and spacing |
+| `Table2.html` | Advanced tables using `rowspan`, `colspan`, and colored cells |
+| `TimeTable.html` | A complete timetable layout using merged cells and table formatting |
 
 ### Practice Tasks
-- `tasks/task1.html` - A practice table showing employee details with salary and working days.
-- `tasks/task2.html` - A practice table for a seminar schedule with grouped rows and columns.
 
-## How to Use
-1. Open any `.html` file in a browser.
-2. Review the source code to understand the HTML tags used.
-3. Modify the content to practice and learn by doing.
+| File | Description |
+| --- | --- |
+| `tasks/task1.html` | Employee details table with salary and working days |
+| `tasks/task2.html` | Seminar schedule table with grouped rows and columns |
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AmanPatil2002/HTML_4-program.git
+   ```
+2. Open the project folder.
+3. Open any `.html` file in your browser (double-click it, or use the *Live Server* extension in VS Code).
+4. View the source code to see which tags are used, then edit the content to practice.
+
+No installation, build tools, or dependencies are required. Some pages (such as `icon.html` and `iframe.html`) need an internet connection to load external resources.
 
 ## Learning Goals
-This project helps learners practice:
-- HTML structure
+
+By working through these files, you will practice:
+
+- HTML document structure
 - Text formatting
 - Links and images
-- Forms and inputs
+- Forms and input elements
 - Tables and layout
-- Basic embedding and metadata
+- Embedding content and page metadata
+
+## Author
+
+**Aman Patil** — [@AmanPatil2002](https://github.com/AmanPatil2002)
